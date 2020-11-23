@@ -1,14 +1,14 @@
 {
   "name": "archway-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small but powerful UI centered framework",
   "type": "module",
-  "main": "./dist/cjs/bundle.js",
-  "module": "./dist/esm/bundle.js",
+  "main": "./dist/core/cjs/index.js",
+  "module": "./dist/core/esm/index.js",
   "exports": {
     ".": {
-      "require": "./dist/cjs/bundle.js",
-      "default": "./dist/esm/bundle.js"
+      "require": "./dist/core/cjs/index.js",
+      "default": "./dist/core/esm/index.js"
     }
   },
   "directories": {
