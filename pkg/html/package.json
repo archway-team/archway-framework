@@ -1,0 +1,15 @@
+{
+  "name": "@archway/html",
+  "version": "1.0.0",
+  "description": "Write HTML with vanilla functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "archway",
+    "html"
+  ],
+  "author": "Nathan Pham <nathanpham.me@gmail.com>",
+  "license": "ISC"
+}
