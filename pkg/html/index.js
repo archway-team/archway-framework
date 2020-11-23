@@ -1,7 +1,7 @@
-function arch(type) {
-  return (props, ...children) => ({
-    type,
-    props,
+function arch(tag) {
+  return (attrs, ...children) => ({
+    tag,
+    attrs,
     children: children.flat() || children,
   });
 }

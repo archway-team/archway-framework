@@ -1,12 +1,15 @@
 {
   "name": "@archway/navigation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Manage browser history",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "archway",
+    "navigation"
+  ],
+  "author": "Nathan Pham <nathanpham.me@gmail.com>",
   "license": "ISC"
 }
