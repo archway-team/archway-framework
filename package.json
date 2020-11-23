@@ -1,0 +1,42 @@
+{
+  "name": "archway-framework",
+  "version": "1.0.0",
+  "description": "Small but powerful UI centered framework",
+  "type": "module",
+  "main": "./dist/cjs/bundle.js",
+  "module": "./dist/esm/bundle.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/bundle.js",
+      "default": "./dist/esm/bundle.js"
+    }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c",
+    "dev": "npx rollup -c --watch --environment mode:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archway-team/archway-framework.git"
+  },
+  "keywords": [
+    "archway",
+    "frontend",
+    "framework",
+    "vdom",
+    "ui"
+  ],
+  "author": "Nathan Pham <nathanpham.me@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archway-team/archway-framework/issues"
+  },
+  "homepage": "https://github.com/archway-team/archway-framework#readme",
+  "devDependencies": {
+    "rollup": "^2.33.3"
+  }
+}
