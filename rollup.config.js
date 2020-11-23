@@ -30,7 +30,6 @@ if (!("dev" == (process.env.mode && process.env.mode.toLowerCase()))) {
           keep_infinity: true,
           typeofs: false,
         },
-        sourcemap: true,
         keep_classnames: true,
         keep_fnames: true,
       }),

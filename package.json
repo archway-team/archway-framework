@@ -37,6 +37,10 @@
   },
   "homepage": "https://github.com/archway-team/archway-framework#readme",
   "devDependencies": {
-    "rollup": "^2.33.3"
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
