@@ -1,9 +1,11 @@
 function arch(tag) {
-  return (attrs, ...children) => ({
-    tag,
-    attrs,
-    children: children.flat() || children,
-  });
+  return (attrs, ...children) => {
+    return {
+      tag,
+      attrs,
+      children: children.flat() || children,
+    };
+  };
 }
 
 export const a = arch("a");

@@ -1,6 +1,6 @@
 {
   "name": "@archway/html",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Write HTML with vanilla functions",
   "type": "module",
   "main": "index.js",
