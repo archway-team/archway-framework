@@ -13,7 +13,7 @@ let plugins = [];
 let builds = [];
 
 function format(path) {
-  return "./" + path.split("\\").join("/")
+  return "./" + path.split("\\").join("/");
 }
 
 plugins.push(
@@ -69,8 +69,8 @@ builds.push({
   external: ["http", "https"],
 });
 _package.exports["."] = {
-  "require": format(archjs),
-  "default": format(archmjs),
+  require: format(archjs),
+  default: format(archmjs),
 };
 
 /* archway/pkgs */
@@ -98,9 +98,9 @@ for (const pkg of pkgs) {
   });
 
   _package.exports["./" + pkg] = {
-    "require": format(pkgjs),
-    "default": format(pkgmjs)
-  }
+    require: format(pkgjs),
+    default: format(pkgmjs),
+  };
 }
 
 fs.writeFileSync("package.json", JSON.stringify(_package, null, 2));
