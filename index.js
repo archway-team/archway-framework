@@ -263,8 +263,10 @@ function reconcileChildren(wipFiber, elements) {
   }
 }
 
-export default {
+const Archway = {
   createElement,
   render,
 };
+
+export default Archway;
 export { useState };

@@ -2,20 +2,12 @@
   "name": "archway-framework",
   "version": "1.0.6",
   "description": "Small but powerful UI centered framework",
-  "main": "./dist/core/cjs/index.js",
-  "module": "./dist/core/esm/index.mjs",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.mjs",
   "exports": {
     ".": {
-      "require": "./dist/core/cjs/index.js",
-      "default": "./dist/core/esm/index.mjs"
-    },
-    "./html": {
-      "require": "./dist/html/cjs/index.js",
-      "default": "./dist/html/esm/index.mjs"
-    },
-    "./navigation": {
-      "require": "./dist/navigation/cjs/index.js",
-      "default": "./dist/navigation/esm/index.mjs"
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/esm/index.mjs"
     }
   },
   "directories": {
@@ -32,8 +24,8 @@
   },
   "keywords": [
     "archway",
-    "frontend",
     "framework",
+    "frontend",
     "vdom",
     "ui"
   ],
