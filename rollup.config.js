@@ -4,10 +4,8 @@ import json from "@rollup/plugin-json";
 import { terser } from "rollup-plugin-terser";
 
 import * as path from "path";
-import * as fs from "fs";
 
 const distname = "./dist";
-const pkgname = "./pkg";
 
 let plugins = [];
 let builds = [];
