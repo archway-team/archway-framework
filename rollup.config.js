@@ -10,10 +10,6 @@ const distname = "./dist";
 let plugins = [];
 let builds = [];
 
-function format(path) {
-  return "./" + path.split("\\").join("/");
-}
-
 plugins.push(
   ...[
     json(),

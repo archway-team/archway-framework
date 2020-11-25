@@ -1,6 +1,6 @@
 {
   "name": "archway-framework",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Small but powerful UI centered framework",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
